@@ -1,6 +1,8 @@
 <!-- Headings-->
 # heading1
+
 ## heading2
+
 ### heading3
 
 <!-- Italics -->
@@ -36,8 +38,8 @@ ___
 * Item 1
 * Item 2
 * Item 3
-    * Nested Item 1
-    * Nested Item 2
+  * Nested Item 1
+  * Nested Item 2
 
 
 <!-- OL -->
@@ -55,31 +57,34 @@ ___
 <!--Github Markdown-->
 
 <!-- Code Blocks-->
-'''bash
+```bash
 
     npm install
 
     npm start
 
-'''
+```
 
-'''javascript
+```javascript
     
     function add(num1, num2){
         return num1 + num2;
     }
-'''
+```
 
-'''python
+```python
+    # This is a Python code block
+    def greet(name):
+    print(f"Hello, {name}!")
 
-   def add(num1, num2):
-    retrun num1 + num2
-
-'''
+    greet("World")
+   
+```
 
 <!-- Tables -->
 
 <!-- Task Lists-->
 * [x] Task 1
 * [x] Task 2
-* [] Task3
+* [] Task 3
+
